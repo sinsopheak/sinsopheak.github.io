@@ -40,7 +40,7 @@ body {
   }
 
   .description {
-    top: 60%;
+    top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -55%);

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.header').height($(window).height() / 2);
+    $('.header').height($(window).height());
 })
 
 let myTypeItInstance = new TypeIt('#simpleUsage', {
