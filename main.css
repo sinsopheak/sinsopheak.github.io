@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  /*--- navigation bar ---*/
+  .nav-link,
+  .navbar-brand {
+    color: #606060;
+    cursor: pointer;
+  }
+
+  .navbar {
+      padding: 20px 30px;
+  }
+
+.navbar-brand {
+    letter-spacing: 5px;
+}
+
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover, .navbar-brand:hover, .active {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .header, .navbar {
+    background-color: rgb(46,203,255,0.11);
+  }
+
+
+  /*--- first header ---*/
+  .header {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .description {
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+
+  .features {
+    margin: 0;
+    padding: 4em;
+    position: relative;
+    background-color: rgb(255,197,129,0.11);
+  }
+  .feature-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .feature-desc {
+      margin-bottom: 5px;
+  }
+  .feature-footer {
+      color: #606060;
+      font-size: 0.95rem;
+  }
+  .feature-header {
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+ 
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+
+  .fa-stack-overflow {
+    background: #53D4DF;
+    color: white;
+  }
+
+  .fa-bitbucket {
+    background: #F06595;
+    color: white;
+  }
+
+  .socialmedia {
+      margin-top: 120px;
+      margin-bottom: 0px;
+  }
