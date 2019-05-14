@@ -9,7 +9,7 @@ body {
   }
 
   .navbar {
-      padding: 20px 30px;
+      padding: 10px 30px;
   }
 
 .navbar-brand {
@@ -26,13 +26,19 @@ body {
     justify-content: flex-end;
   }
 
-  .header, .navbar {
+  /* .header, .navbar {
+    background-color: rgb(46,203,255,0.11);
+  } */
+
+  .navbar {
     background-color: rgb(46,203,255,0.11);
   }
 
 
   /*--- first header ---*/
   .header {
+    background-image: url('site1.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -157,4 +163,15 @@ body {
     padding-bottom: 1.6em;
   }
 
-  
+  .overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0.7);
+}
+
+.description h1 {
+  color: #fff;
+}
