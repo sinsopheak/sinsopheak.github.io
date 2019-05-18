@@ -1,0 +1,13 @@
+<footer class="page-footer font-small pt-4 custom-footer">
+
+    <div class="container-fluid text-center">
+        <ul class="list-inline">
+            {% for item in site.data.navigation %}
+                <li class="list-inline-item"><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <p>© 2019 <b><a href="./"> Sin Sopheak</a></b></p>
+        <span>Questions, comments? <b>Contact: hello@sinsopheak.com</b></span>
+    </div>
+
+</footer>
