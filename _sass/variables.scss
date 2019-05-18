@@ -59,6 +59,21 @@ body {
   .features {
     background-color: rgba(255,197,129,0.11);
   }
+
+  .thanks {
+    background-color: rgba(255,197,129,0.11) !important;
+    background-image: none !important;
+  }
+
+  .thanks .description h1 {
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .thanks .description h1, .thanks .description p {
+    color: #000;
+  }
+
   .feature-title {
     font-weight: bold;
     margin-bottom: 10px;
@@ -186,4 +201,27 @@ body {
 
 .description p a:hover {
   font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 0 !important;
+    outline: 0 !important;
+    background: transparent !important;
+    border-bottom: 1.5px solid gray !important;
+    border-radius: 0 !important;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.thanks .img-fluid {
+  width: 20%; 
+}
+
+.active a {
+  color: #000;
+  cursor: default;
 }
