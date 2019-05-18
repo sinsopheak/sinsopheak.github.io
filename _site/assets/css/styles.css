@@ -47,6 +47,11 @@ body {
   padding: 4em;
   position: relative; }
 
+.fill-screen {
+  padding-top: 3em;
+  padding-left: 4em;
+  padding-right: 4em; }
+
 .features {
   background-color: rgba(255, 197, 129, 0.11); }
 
@@ -184,3 +189,6 @@ hr {
 .active a {
   color: #000;
   cursor: default; }
+
+.flex-fill {
+  flex: 1; }
