@@ -1,4 +1,5 @@
 ---
 layout: default
-title: About
+title: About | Sin Sopheak
+permalink: about
 ---

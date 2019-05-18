@@ -31,12 +31,15 @@ body {
 
 
   /*--- first header ---*/
-  .header {
-    background-image: url('/assets/images/site1.jpg');
-    background-attachment: fixed;
+.header {
+  background-image: url('/assets/images/mobile.jpg');
+   background-attachment: fixed;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+  .header-contact {
+   background-image: url('/assets/images/contact1.jpg') !important;
   }
 
   .description {
@@ -168,6 +171,19 @@ body {
  background: rgba(0, 0, 0, 0.7);
 }
 
-.description h1 {
+.description h1, .description p {
   color: #fff;
+}
+
+.description p {
+  margin-top: 15px;
+}
+
+.description p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.description p a:hover {
+  font-weight: bold;
 }
