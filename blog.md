@@ -5,3 +5,5 @@ permalink: blog
 ---
 
 {% include latest-posts.html %}
+
+{% include subscribe.html %}
