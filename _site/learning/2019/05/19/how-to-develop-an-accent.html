@@ -28,7 +28,7 @@
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-md">
 
 <a class="navbar-brand" href="/">SIN SOPHEAK</a>
@@ -62,10 +62,11 @@
 </div>
 </nav>
 
-    <div class="container post-page">
+    <div id="progress"></div>
+<div class="container post-page">
 
     <div class="row justify-content-center">
-        <div class="col-md-8 col-sm-12 form-group">
+        <div class="col-md-8 col-sm-11 form-group">
 <h1>How To Develop An Accent</h1>
 <p>19 May 2019 - Sin Sopheak | Learning </p>
 <img class="img-fluid" src="/assets/images/book.jpg" alt="">
@@ -88,6 +89,8 @@
 <hr class="bottom">
 
 </div>
+
+
 
 
     <footer class="page-footer font-small pt-4 custom-footer">
@@ -115,16 +118,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.2/typeit.min.js"></script>
-    
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-        <script src="/assets/js/main.js"></script>
-    
-    
+    <script src="/assets/js/jquery.progress.js"></script>
+    <script>
+        $('#progress').progress({
+            size: '3px', wapperBg: '#eee',
+
+            // inner color
+            innerBg: 'rgba(46,203,255,0.3)'
+        });
+    </script>
+
+
 </body>
 
 </html>
