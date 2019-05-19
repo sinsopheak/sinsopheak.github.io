@@ -89,6 +89,8 @@ hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
 .contact-form input, .contact-form textarea { border: 0 !important; outline: 0 !important; background: transparent !important; border-bottom: 1.5px solid gray !important; border-radius: 0 !important; }
 
+.mc-field-group input { text-align: center; }
+
 .contact-form button { margin-top: 20px; padding-left: 25px; padding-right: 25px; }
 
 .thanks .img-fluid { width: 20%; }
@@ -103,4 +105,4 @@ div .post-content p { line-height: 1.8em; font-size: 1.1em; font-family: Arial, 
 
 div .post-content { padding-top: 30px; }
 
-.post-page { padding-top: 40px; }
+.post-page { padding-top: 40px; padding-left: 10px; padding-right: 10px; }

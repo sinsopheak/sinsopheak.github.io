@@ -13,3 +13,7 @@ let myTypeItInstance = new TypeIt('#simpleUsage', {
 var windowh = window.innerHeight;
 document.getElementsByClassName('header').style.height = windowh;
 
+document.getElementById("open-popup").onclick = function () { 
+    // showMailingPopUp() 
+    console.log("hi");
+};

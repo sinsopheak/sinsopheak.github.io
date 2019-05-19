@@ -226,6 +226,10 @@ body {
     border-radius: 0 !important;
 }
 
+.mc-field-group input {
+  text-align: center;
+}
+
 .contact-form button {
   margin-top: 20px;
   padding-left: 25px;
@@ -262,4 +266,6 @@ div .post-content {
 
 .post-page {
   padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
