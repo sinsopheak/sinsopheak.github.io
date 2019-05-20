@@ -43,7 +43,7 @@ body { padding: 0; margin: 0; }
 
 .feature-header { font-weight: 700; margin-bottom: 50px; }
 
-.fa { padding: 15px; font-size: 1em; width: 44px; text-align: center; text-decoration: none; margin: 5px 2px; }
+.fa { padding: 16px; font-size: 1em; text-align: center; text-decoration: none; margin: 5px 2px; }
 
 .fa:hover { opacity: 0.7; text-decoration: none; color: #fff; }
 
@@ -53,7 +53,7 @@ body { padding: 0; margin: 0; }
 
 .fa-rss { background: #ff6600; color: white; }
 
-.fa-stack-overflow { background: #53D4DF; color: white; }
+.fa-stack-exchange { background: #53D4DF; color: white; }
 
 .fa-bitbucket { background: #F06595; color: white; }
 
@@ -105,4 +105,4 @@ div .post-content p { line-height: 1.8em; font-size: 1.1em; font-family: Arial, 
 
 div .post-content { padding-top: 30px; }
 
-.post-page { padding-top: 40px; padding-left: 10px; padding-right: 10px; }
+.post-page { padding-top: 40px; }
