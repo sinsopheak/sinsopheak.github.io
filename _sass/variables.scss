@@ -50,9 +50,15 @@ body {
     text-align: center;
   }
 
-  .features, .custom-container {
+ .custom-container {
     margin: 0;
     padding: 4em 4em;
+    position: relative; 
+  }
+
+  .features{
+    margin: 0;
+    padding: 2em 2em;
     position: relative; 
   }
 
