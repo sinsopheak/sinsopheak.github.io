@@ -1,9 +1,8 @@
 <div class="container-fluid light-brown">
-<div class="container features mx-auto">
-    <h2 class="feature-header text-center">Latest Blog Posts</h2>
-    <div class="row justify-content-center">
-
-        {% for post in site.posts limit:3 %}
+    <div class="container features mx-auto">
+        {% for post in site.posts %}
+        {% cycle 'add rows': '<div class="row justify-content-center">', '', '' %}
+    
         <div class="col-lg-4 col-md-4 col-sm-12 px-3">
             <a href="{{ post.url }}">
                 <h5 class="feature-title">{{ post.title }}</h5>
@@ -11,14 +10,20 @@
             <p class="feature-footer">{{ post.category }} | 5 min read</p>
             <img class="img-fluid rounded" src="{{ post.thumbnail }}" alt="">
             <p class="feature-desc">{{ post.excerpt }}</p>
-
+    
         </div>
-
+    
+        {% cycle 'close rows': '', '', '</div>' %}
+    
         {% endfor %}
-
-
+    
+        {% assign rows = site.posts.size | modulo: 3 %}
+        {% if rows != 0 %}
     </div>
-
-</div>
-
+    {% endif %}
+    
+    
+    
+    
+    </div>
 </div>
