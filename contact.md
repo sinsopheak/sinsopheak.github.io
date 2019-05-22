@@ -14,7 +14,7 @@ permalink: contact
     </div>
 </header>
 
- <div class="container-fluid features">
+ <div class="container-fluid features light-brown">
   <h3 class="text-center">Contact</h3>
   <p class="text-center">Drop a message.</p>
   <div class="container contact-form">
