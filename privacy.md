@@ -25,7 +25,7 @@ permalink: privacy
  <p>We may share personal information with third parties who provide services to sinsopheak.com such as subscription processors, analytics tools, and email delivery services.</p>
 
  <h5>Cookies</h5>
- <p>In order to provide the website along with its services and functionalities, we may place cookies on you as well as partner with third parties including email delivery services. Cookies may be used to allow for smooth loading and rending of the website and for other activites such as providing you with subscription service.</p>
+ <p>In order to provide the website along with its services and functionalities, we may place cookies on you as well as partner with third parties including email delivery services. Cookies may be used to allow for smooth loading and rendering of the website and for other activites such as providing you with subscription service.</p>
 
  <h5>Privacy Policy Amendments</h5>
  <p>From time to time, we may amend or update this privacy policy.</p>
