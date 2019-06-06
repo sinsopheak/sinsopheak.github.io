@@ -25,6 +25,8 @@ body { padding: 0; margin: 0; }
 
 .features { margin: 0; padding: 2em 2em; position: relative; }
 
+.features div { padding-bottom: 5px; }
+
 .fill-screen { padding-top: 3em; padding-left: 4em; padding-right: 4em; }
 
 .light-brown { background-color: rgba(255, 197, 129, 0.11); }
@@ -37,13 +39,13 @@ body { padding: 0; margin: 0; }
 
 .thanks .description h1, .thanks .description p { color: #000; }
 
-.feature-title { font-weight: bold; margin-bottom: 10px; }
+.feature-title { font-weight: bold; margin-top: 10px; margin-bottom: 10px; }
 
 .feature-desc { margin-bottom: 20px; margin-top: 7px; }
 
 .feature-footer { color: #606060; font-size: 0.95rem; }
 
-.feature-header { font-weight: 700; margin-bottom: 50px; }
+.feature-header { font-weight: 700; margin-bottom: 30px; }
 
 .fa { padding: 16px; font-size: 1em; text-align: center; text-decoration: none; margin: 5px 2px; }
 

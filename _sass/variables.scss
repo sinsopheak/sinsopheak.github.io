@@ -62,6 +62,10 @@ body {
     position: relative; 
   }
 
+  .features div {
+    padding-bottom: 5px;
+  }
+
   .fill-screen {
     padding-top: 3em;
     padding-left: 4em;
@@ -92,6 +96,7 @@ body {
 
   .feature-title {
     font-weight: bold;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
   .feature-desc {
@@ -104,7 +109,7 @@ body {
   }
   .feature-header {
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
     .fa {
