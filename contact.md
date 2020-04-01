@@ -8,7 +8,7 @@ permalink: contact
     <div class="overlay">
     <div class="description">
             <h1>Get in touch</h1>
-            <p>Have questions or comments? Want to be guest blog writer? <br> Contact hello@sinsopheak.com.</p>
+            <p>Have questions or comments? <br> Contact hello@sinsopheak.com.</p>
         </div>
     </div>
 </header>
