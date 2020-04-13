@@ -1,18 +1,24 @@
 body { padding: 0; margin: 0; }
 
-.nav-link, .navbar-brand, .custom-footer a { color: #606060; cursor: pointer; }
+.nav-link, .navbar-brand { color: #fff; cursor: pointer; }
 
-.navbar { padding: 10px 30px; }
+.custom-footer a { cursor: pointer; color: #000; }
+
+.navbar { padding: 10px 30px; background-color: rgba(16, 19, 20, 0.747); width: 100%; }
+
+.navbar-sticky { position: fixed; top: 0; z-index: 100; }
 
 .navbar-brand { letter-spacing: 5px; }
 
 .nav-link { margin-right: 1em !important; }
 
-.nav-link:hover, .navbar-brand:hover, .active, .custom-footer a:hover { color: #000; }
+.active, .navbar-brand:hover, .nav-link:hover { color: #fff; }
+
+.custom-footer a:hover { color: #000; }
+
+.nav-link:hover { text-decoration: underline; }
 
 .navbar-collapse { justify-content: flex-end; }
-
-.navbar { background-color: rgba(46, 203, 255, 0.11); }
 
 /*--- first header ---*/
 .header { background-image: url("/assets/images/mobile.jpg"); background-attachment: fixed; background-size: cover; background-position: center; position: relative; }
