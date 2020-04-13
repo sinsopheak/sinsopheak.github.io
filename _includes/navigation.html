@@ -1,16 +1,15 @@
-<nav class="navbar navbar-expand-md">
-
-<a class="navbar-brand" href="/">SIN SOPHEAK</a>
-<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="main-navigation">
-    <ul class="navbar-nav">
-        {% for item in site.data.navigation limit:5 %}
-        <li class="nav-item">
-            <a class="nav-link {% if item.link == page.url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+<nav class="navbar navbar-expand-md navbar-sticky">
+    <a class="navbar-brand" href="/">SIN SOPHEAK</a>
+    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+        <ul class="navbar-nav">
+            {% for item in site.data.navigation limit:5 %}
+            <li class="nav-item">
+                <a class="nav-link {% if item.link == page.url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </nav>
