@@ -25,7 +25,7 @@ body { padding: 0; margin: 0; }
 
 .header-contact { background-image: url("/assets/images/contact1.jpg") !important; }
 
-.header-blog { background-image: url("/assets/images/notebook-731212_1920.jpg.jpg") !important; }
+.header-blog { background-image: url("/assets/images/notebook-731212_1920.jpg") !important; }
 
 .description { top: 50%; left: 50%; position: absolute; transform: translate(-50%, -55%); text-align: center; }
 
@@ -60,6 +60,8 @@ html { scroll-behavior: smooth; }
 .thanks { background-color: rgba(255, 197, 129, 0.11) !important; background-image: none !important; }
 
 .thanks .description h1 { font-weight: 700; margin-top: 20px; }
+
+.description span { font-size: 25px; color: #fff; }
 
 .thanks .description h1, .thanks .description p { color: #000; }
 

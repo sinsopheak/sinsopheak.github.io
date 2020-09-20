@@ -63,7 +63,7 @@ body {
 }
 
 .header-blog {
-  background-image: url('/assets/images/notebook-731212_1920.jpg.jpg') !important;
+  background-image: url('/assets/images/notebook-731212_1920.jpg') !important;
 }
 
 .description {
@@ -151,6 +151,11 @@ html {
   .thanks .description h1 {
     font-weight: 700;
     margin-top: 20px;
+  }
+
+  .description span {
+      font-size: 25px;
+      color: #fff;
   }
 
   .thanks .description h1, .thanks .description p {
