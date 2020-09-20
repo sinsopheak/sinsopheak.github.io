@@ -461,6 +461,17 @@ div .post-content {
   display: block;
 }
 
+.timeline-content p {
+  color: #616161;
+  font-size: .9em;
+}
+
+.badge {
+  display: inline-block !important;
+  background-color: #007bb5;
+  color: #fff;
+}
+
 .timeline-content .date {
   font-weight: bold;
 }
