@@ -453,6 +453,7 @@ div .post-content {
 /* The actual content */
 .timeline-content {
   padding: 1px 15px;
+  padding-right: 0;
   position: relative;
 }
 
@@ -464,10 +465,27 @@ div .post-content {
   font-weight: bold;
 }
 
+.mobile-only {
+  display: none;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .timeline {
     max-width: 100%;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
 
 /* Place the timelime to the left */
@@ -497,5 +515,10 @@ div .post-content {
 /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+
+  .home-exp {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }

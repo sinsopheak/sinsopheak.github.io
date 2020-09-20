@@ -178,14 +178,18 @@ div .post-content { padding-top: 30px; }
 .right::after { left: 17px; }
 
 /* The actual content */
-.timeline-content { padding: 1px 15px; position: relative; }
+.timeline-content { padding: 1px 15px; padding-right: 0; position: relative; }
 
 .timeline-content span { display: block; }
 
 .timeline-content .date { font-weight: bold; }
 
+.mobile-only { display: none; }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
+  .desktop-only { display: none; }
+  .mobile-only { display: block; padding-top: 13px; padding-bottom: 13px; margin: auto; width: 100%; text-align: center; }
   /* Place the timelime to the left */
   .timeline::after { left: 8px; }
   /* Full-width containers */
@@ -195,4 +199,5 @@ div .post-content { padding-top: 30px; }
   /* Make sure all circles are at the same spot */
   .left::after, .right::after { left: 1px; }
   /* Make all right containers behave like the left ones */
-  .right { left: 0%; } }
+  .right { left: 0%; }
+  .home-exp { padding-top: 10px; padding-bottom: 10px; } }
