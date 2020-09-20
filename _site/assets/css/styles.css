@@ -198,6 +198,8 @@ div .post-content { padding-top: 30px; }
 
 .home-exp a:hover { font-weight: bold; }
 
+.small-nav-title { font-size: 10px; letter-spacing: 1px; }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
   .desktop-only { display: none; }

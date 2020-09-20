@@ -499,6 +499,11 @@ div .post-content {
   font-weight: bold;
 }
 
+.small-nav-title {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .timeline {
