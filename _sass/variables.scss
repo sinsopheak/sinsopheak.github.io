@@ -33,7 +33,7 @@ body {
     margin-right: 1em !important;
 }
   
-.active, .navbar-brand:hover, .nav-link:hover {
+.navbar-brand:hover, .nav-link:hover {
     color: #fff;
 }
 
@@ -62,12 +62,55 @@ body {
    background-image: url('/assets/images/contact1.jpg') !important;
 }
 
+.header-blog {
+  background-image: url('/assets/images/notebook-731212_1920.jpg.jpg') !important;
+}
+
 .description {
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -55%);
     text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+@keyframes glowing {
+  0% { box-shadow: 0 0 -50px #c4a300; }
+  40% { box-shadow: 0 0 70px #c4a300; }
+  60% { box-shadow: 0 0 70px #c4a300; }
+  100% { box-shadow: 0 0 -50px #c4a300; }
+}
+
+.icon-glow {
+  animation: glowing 5000ms infinite;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.form-button {
+  left: 50%;
+  top: 95%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -55%);
+}
+
+.form-button p {
+  color: #fff;
 }
 
 .custom-container {
@@ -219,7 +262,7 @@ body {
 
   .custom-footer {
     color: #7a7a7a;
-    padding-bottom: 0.6em;
+    padding-bottom: 18px;
   }
 
   .overlay{
@@ -270,9 +313,8 @@ body {
   width: 20%; 
 }
 
-.active a {
-  color: #000;
-  cursor: default;
+.active {
+  font-weight: bold;
 }
 
 .flex-fill {
@@ -289,7 +331,7 @@ body {
 }
 
 .below-nav {
-  padding: 80px 40px 20px;
+  padding-top: 80px !important;
 }
 
 .about-page h1 {

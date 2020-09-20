@@ -12,7 +12,7 @@ body { padding: 0; margin: 0; }
 
 .nav-link { margin-right: 1em !important; }
 
-.active, .navbar-brand:hover, .nav-link:hover { color: #fff; }
+.navbar-brand:hover, .nav-link:hover { color: #fff; }
 
 .custom-footer a:hover { color: #000; }
 
@@ -25,7 +25,25 @@ body { padding: 0; margin: 0; }
 
 .header-contact { background-image: url("/assets/images/contact1.jpg") !important; }
 
+.header-blog { background-image: url("/assets/images/notebook-731212_1920.jpg.jpg") !important; }
+
 .description { top: 50%; left: 50%; position: absolute; transform: translate(-50%, -55%); text-align: center; }
+
+html { scroll-behavior: smooth; }
+
+.arrow { border: solid #fff; border-width: 0 3px 3px 0; display: inline-block; padding: 3px; }
+
+@keyframes glowing { 0% { box-shadow: 0 0 -50px #c4a300; }
+  40% { box-shadow: 0 0 70px #c4a300; }
+  60% { box-shadow: 0 0 70px #c4a300; }
+  100% { box-shadow: 0 0 -50px #c4a300; } }
+.icon-glow { animation: glowing 5000ms infinite; }
+
+.down { transform: rotate(45deg); -webkit-transform: rotate(45deg); }
+
+.form-button { left: 50%; top: 95%; position: absolute; text-align: center; transform: translate(-50%, -55%); }
+
+.form-button p { color: #fff; }
 
 .custom-container { margin: 0; padding: 4em 4em; position: relative; }
 
@@ -85,7 +103,7 @@ hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
 .custom-color { background-color: rgba(122, 122, 122, 0.05); }
 
-.custom-footer { color: #7a7a7a; padding-bottom: 0.6em; }
+.custom-footer { color: #7a7a7a; padding-bottom: 18px; }
 
 .overlay { position: absolute; min-height: 100%; min-width: 100%; left: 0; top: 0; background: rgba(0, 0, 0, 0.7); }
 
@@ -105,7 +123,7 @@ hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
 .thanks .img-fluid { width: 20%; }
 
-.active a { color: #000; cursor: default; }
+.active { font-weight: bold; }
 
 .flex-fill { flex: 1; }
 
@@ -113,7 +131,7 @@ hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
 .about-page { padding: 80px 40px 20px; }
 
-.below-nav { padding: 80px 40px 20px; }
+.below-nav { padding-top: 80px !important; }
 
 .about-page h1 { font-size: 4em; font-weight: 700; }
 
