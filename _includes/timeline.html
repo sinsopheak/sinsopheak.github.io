@@ -1,9 +1,8 @@
-<div class="timeline">
+<div class="timeline color-dark2">
     {% for item in site.data.timelineItem %}
-        {% assign remainder = forloop.index | modulo: 2 %}
-        <div class="timeline-container {% if remainder == 1 %}left{% else %}right{% endif %}">
+        <div class="timeline-container right">
             <div class="timeline-content">
-                <h2>{{ item.date }}</h2>
+                <span class="date">{{ item.date }}</span>
                 <span>{{ item.title }}</span>
                 <!-- <p>{{ item.desc }}</p> -->
             </div>
