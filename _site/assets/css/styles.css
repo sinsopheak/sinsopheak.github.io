@@ -192,7 +192,7 @@ div .post-content { padding-top: 30px; }
 
 .home-exp span { font-size: 25px; display: block; }
 
-.home-exp { padding-left: 40px; }
+.home-exp { padding-left: 40px; padding-top: 15px; }
 
 .home-exp a, home-exp:visited { color: #000; text-decoration: underline; }
 
