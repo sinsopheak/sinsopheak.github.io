@@ -204,7 +204,7 @@ div .post-content { padding-top: 30px; }
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
   .desktop-only { display: none; }
   .mobile-only { display: block; padding-top: 13px; padding-bottom: 13px; margin: auto; width: 100%; text-align: center; }
-  .padding-bottom { padding-bottom: 15px; }
+  .padding-bottom { padding-bottom: 15px !important; }
   .home-exp { padding-left: 20px; }
   .home-exp span { font-size: 20px; }
   /* Place the timelime to the left */

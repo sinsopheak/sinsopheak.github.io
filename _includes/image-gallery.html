@@ -1,0 +1,17 @@
+<div>
+    <p>Recent Certificates</p>
+</div>
+<div class="row">
+    {% for item in site.data.certs %}
+    <div class="col-md-4">
+        <div class="thumbnail">
+            <a href="{{ item.link }}">
+                <img src="{{ item.link }}" alt="Lights" style="width:100%">
+                <div class="caption">
+                    <p>{{ item.title }}</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
