@@ -1,0 +1,12 @@
+<div class="timeline">
+    {% for item in site.data.timelineItem %}
+        {% assign remainder = forloop.index | modulo: 2 %}
+        <div class="timeline-container {% if remainder == 1 %}left{% else %}right{% endif %}">
+            <div class="timeline-content">
+                <h2>{{ item.date }}</h2>
+                <span>{{ item.title }}</span>
+                <!-- <p>{{ item.desc }}</p> -->
+            </div>
+        </div>
+    {% endfor %}
+</div>
