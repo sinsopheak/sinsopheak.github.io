@@ -4,7 +4,7 @@ title: Privacy Policy | Sin Sopheak
 permalink: privacy
 ---
 
-<div class="container mx-auto privacy-page">
+<div class="container mx-auto privacy-page custom-color">
 
  <h3>sinsopheak.com Privacy Policy</h3>
  <p>We understand that the privacy of our visitors is very important and we are committed to keeping your information safe and secure. This privacy policy describes what information we collect on our website, how it is used, and what options we provide you to control your personal data.</p>
