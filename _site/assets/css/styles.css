@@ -217,4 +217,11 @@ div .post-content { padding-top: 30px; }
   .left::after, .right::after { left: 1px; }
   /* Make all right containers behave like the left ones */
   .right { left: 0%; }
-  .home-exp { padding-top: 10px; padding-bottom: 10px; } }
+  .home-exp { padding-top: 10px; padding-bottom: 10px; }
+  div.gallery { margin: auto !important; } }
+/* Cert gallery */
+div.gallery { margin-left: 15px; margin-right: 5px; margin-bottom: 10px; float: left; width: 200px; }
+
+div.gallery img { width: 100%; height: 280px; }
+
+div.desc { padding: 15px; text-align: center; }

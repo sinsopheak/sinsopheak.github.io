@@ -3,15 +3,11 @@
 </div>
 <div class="row">
     {% for item in site.data.certs %}
-    <div class="col-md-4">
-        <div class="thumbnail">
-            <a href="{{ item.link }}">
-                <img src="{{ item.link }}" alt="Lights" style="width:100%">
-                <div class="caption">
-                    <p>{{ item.title }}</p>
-                </div>
-            </a>
-        </div>
+    <div class="gallery">
+        <a target="_blank" href="{{ item.link }}">
+            <img src="{{ item.link }}" width="600" height="400">
+        </a>
+        <div class="desc">{{ item.title }}</div>
     </div>
     {% endfor %}
 </div>
