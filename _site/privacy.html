@@ -118,6 +118,7 @@
         width: calc(100%);
         background: #222;
         color: rgb(255, 255, 255);
+        z-index: 9999;
     }
 
     #cookie-notice a {
@@ -170,7 +171,7 @@
         }
         return null;
     }
-    
+
     function eraseCookie(name) {
         createCookie(name, "", -1);
     }
