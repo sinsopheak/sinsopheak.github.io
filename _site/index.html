@@ -2,21 +2,12 @@
 <html>
 
 <head>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140423295-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-140423295-1');
-    </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sin Sopheak</title>
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="sinsopheak.github.io" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140423295-1"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -80,7 +71,7 @@
     <div class="row flex-fill d-flex">
         <div class="col-lg-5 col-md-5 col-sm-12 my-auto">
             <h1>Hello.</h1>
-            <p><em>I'm Sopheak, a senior Salesforce developer and a Computer Science graduate from Institute of Technology of Cambodia. I love tech and creating stuff!</em></p>
+            <p><em>I'm Sopheak, a senior Salesforce developer and a Computer Science graduate from Institute of Technology of Cambodia. I love creating stuff!</em></p>
 
             <div class="desktop-only">
                 <a href="https://www.linkedin.com/in/sinsopheak/" class="fa fa-linkedin" title="Connect on LinkedIn"
@@ -127,7 +118,7 @@
             <div class="timeline-content">
                 <span class="date">Aug 2019 - Present</span>
                 <span>Senior Salesforce Developer</span>
-                <p>Working on a global CRM system, implementing various features and projects including custom customer support solutions such as Knowledg Base, Case and Contact handling Salesforce Service Cloud apps, moderation systems, and full-fledged Salesforce Communities for <a href="https://www.ebayclassifiedsgroup.com/" target="_blank">eBay Classifieds Group</a>, a world leader in classifieds. <span class="badge">Service Cloud</span> <span class="badge">Google Analytics</span> <span class="badge">Visualforce</span> <span class="badge">Salesforce Community</span> <span class="badge">APEX</span> <span class="badge">SOQL</span> <span class="badge">Lightning Component Framework (Aura, LWC)</span></p>
+                <p>Working on a global CRM system, implementing various features and projects including custom customer support solutions such as Knowledge Base, Case and Contact handling on Salesforce Service Cloud apps, moderation systems, and full-fledged Salesforce Communities for <a href="https://www.ebayclassifiedsgroup.com/" target="_blank">eBay Classifieds Group</a>. <span class="badge">Service Cloud</span> <span class="badge">Google Analytics</span> <span class="badge">Visualforce</span> <span class="badge">Salesforce Community</span> <span class="badge">APEX</span> <span class="badge">SOQL</span> <span class="badge">Lightning Component Framework (Aura, LWC)</span></p>
             </div>
         </div>
     
@@ -149,6 +140,14 @@
     
         <div class="timeline-container right">
             <div class="timeline-content">
+                <span class="date">Jan 2018 - May 2018</span>
+                <span>Technical Mentor, volunteer</span>
+                <p>Mentoring 7 groups of young participants on the Technovation Challenge program, teaching programming concepts and helping them developing mobile applications. <span class="badge">Android</span> <span class="badge">MIT App Inventor 2</span></p>
+            </div>
+        </div>
+    
+        <div class="timeline-container right">
+            <div class="timeline-content">
                 <span class="date">Feb 2017 - Nov 2017</span>
                 <span>Microsoft Student Partner Programs member</span>
                 <p>Knowledge sharing experience with developers and computer majors and a training course by a Certified Microsoft Trainer. Developed online shopping Android application, and a backend server with a SQL database and API interfaces based on Microsoft SQL Server. <span class="badge">Microsoft Server Management Studio</span> <span class="badge">REST API</span> <span class="badge">C#</span> <span class="badge">Android</span> <span class="badge">Java</span></p>
@@ -157,7 +156,7 @@
     
         <div class="timeline-container right">
             <div class="timeline-content">
-                <span class="date">Jul 2017 - 2017</span>
+                <span class="date">Jul 2017 - Oct 2017</span>
                 <span>Android Developer internship</span>
                 <p>Developed online shopping and student attendance management applications. <span class="badge">Android</span> <span class="badge">Java</span></p>
             </div>
@@ -296,7 +295,7 @@
                 <li class="list-inline-item "><a href="/privacy">Privacy Policy</a></li>
             
         </ul>
-        <p>© 2020 <b><a href="./"> Sin Sopheak</a></b>. All rights reserved.</p>
+        <p>© 2020 <a href="./"> Sin Sopheak</a>. All rights reserved.</p>
     </div>
 
 </footer>
@@ -311,7 +310,98 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-        <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <style>
+    #cookie-notice {
+        padding: 0.5rem 1rem;
+        display: none;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: calc(100%);
+        background: #222;
+        color: rgb(255, 255, 255);
+    }
+
+    #cookie-notice a {
+        display: inline-block;
+        cursor: pointer;
+        margin-left: 0.5rem;
+    }
+
+    @media (max-width: 767px) {
+        #cookie-notice span {
+            display: block;
+            padding-top: 3px;
+            margin-bottom: 1rem;
+        }
+
+        #cookie-notice a {
+            position: relative;
+            bottom: 4px;
+        }
+    }
+</style>
+
+<div id="cookie-notice">
+    <span>We would like to use third party cookies and scripts to improve the functionality of this
+        website.
+    </span>
+    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Accept</a>
+    <a href="/privacy" class="btn btn-info btn-sm">Learn more</a>
+    <a id="cookie-notice-decline" class="btn btn-danger btn-sm">Decline</a>
+</div>
+
+<script>
+    function createCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    
+    function eraseCookie(name) {
+        createCookie(name, "", -1);
+    }
+
+    if (readCookie('cookie-notice-dismissed') == 'true') {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140423295-1');
+    } else {
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+
+    document.getElementById('cookie-notice-accept').addEventListener("click", function () {
+        createCookie('cookie-notice-dismissed', 'true', 31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+    document.getElementById('cookie-notice-decline').addEventListener("click", function () {
+            createCookie('cookie-notice-dismissed', 'false', 31);
+            document.getElementById('cookie-notice').style.display = 'none';
+            location.reload();
+        });
+
+</script>
     
 </body>
 
