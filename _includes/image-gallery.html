@@ -1,7 +1,7 @@
 <div>
-    <p>Recent Certificates</p>
+    <p data-toggle="collapse" data-target="#collapsibleGallery"><b>Recent Certificates</b></p>
 </div>
-<div class="row">
+<div id="collapsibleGallery" class="row collapse show">
     {% for item in site.data.certs %}
     <div class="gallery">
         <a target="_blank" href="{{ item.link }}">
