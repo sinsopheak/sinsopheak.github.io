@@ -198,7 +198,7 @@ html {
     margin-bottom: 30px;
   }
 
-    .fa {
+    .fa, .fab {
     padding: 10px;
     font-size:15px;
     text-align: center;
@@ -206,10 +206,13 @@ html {
     margin: 5px 2px;
   }
   
-  .fa:hover {
+  .fa:hover, .fab:hover {
       opacity: 0.7;
       text-decoration: none;
-      color: #fff;
+  }
+
+  .fa:hover {
+    color: #fff;
   }
   
   .fa-linkedin {
@@ -235,6 +238,10 @@ html {
   .fa-bitbucket {
     background: #F06595;
     color: white;
+  }
+
+  .fa-salesforce {
+    background-color: #fff;
   }
 
   
