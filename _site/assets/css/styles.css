@@ -166,7 +166,7 @@ div .post-content { padding-top: 30px; }
 .timeline, .timeline > * { box-sizing: border-box; }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after { content: ''; position: absolute; width: 6px; background-color: white; top: 0; bottom: 0; left: 5%; margin-left: 0px; }
+.timeline::after { content: ''; position: absolute; width: 6px; background-color: white; top: 0; bottom: 0; left: 1.75em; margin-left: 0px; }
 
 /* Container around content */
 .timeline-container { padding: 11px 40px; position: relative; background-color: inherit; }
@@ -181,7 +181,7 @@ div .post-content { padding-top: 30px; }
 .left::before { content: " "; height: 0; position: absolute; top: 22px; width: 0; z-index: 1; right: 30px; border: medium solid white; border-width: 10px 0 10px 10px; border-color: transparent transparent transparent white; }
 
 /* Fix the circle for containers on the right side */
-.right::after { left: 17px; }
+.right::after { left: 1.3em; }
 
 /* The actual content */
 .timeline-content { padding: 1px 15px; padding-right: 0; position: relative; }
