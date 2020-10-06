@@ -1,13 +1,10 @@
 <div>
     <p data-toggle="collapse" data-target="#collapsibleGallery"><b>Recent Certificates</b></p>
 </div>
-<div id="collapsibleGallery" class="row collapse show">
+<div>
+    <ul class="list-group list-group-flush">
     {% for item in site.data.certs %}
-    <div class="gallery">
-        <a target="_blank" href="{{ item.link }}">
-            <img src="{{ item.link }}" width="600" height="400">
-        </a>
-        <div class="desc">{{ item.title }}</div>
-    </div>
+        <li class="list-group-item"><a target="_blank" href="{{ item.link }}">{{ item.title }}</a></li>
     {% endfor %}
+    </ul>
 </div>

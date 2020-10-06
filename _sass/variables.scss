@@ -159,6 +159,18 @@ html {
     margin-top: 20px;
   }
 
+  .list-group-item {
+    background-color: transparent;
+  }
+
+  .list-group-item a {
+    text-decoration: none !important;
+  }
+
+  list-group-item a:hover {
+    font-weight: normal !important;
+  }
+
   .description span {
       font-size: 25px;
       color: #fff;
