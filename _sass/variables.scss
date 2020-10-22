@@ -198,7 +198,7 @@ html {
     margin-bottom: 30px;
   }
 
-    .fa, .fab {
+    .fa {
     padding: 10px;
     font-size:15px;
     text-align: center;
@@ -206,7 +206,7 @@ html {
     margin: 5px 2px;
   }
   
-  .fa:hover, .fab:hover {
+  .fa:hover {
       opacity: 0.7;
       text-decoration: none;
   }
@@ -217,31 +217,32 @@ html {
   
   .fa-linkedin {
     background: #007bb5;
-    color: white;
+    color: #fff;
   }
   
   .fa-youtube {
     background: #bb0000;
-    color: white;
+    color: #fff;
   }
  
   .fa-rss {
     background: #ff6600;
-    color: white;
+    color: #fff;
   }
 
   .fa-stack-exchange {
     background: #53D4DF;
-    color: white;
+    color: #fff;
   }
 
   .fa-bitbucket {
     background: #F06595;
-    color: white;
+    color: #fff;
   }
 
-  .fa-salesforce {
-    background-color: #fff;
+  .fa-user-circle {
+    background-color: #92c371;
+    color: #fff;
   }
 
   
