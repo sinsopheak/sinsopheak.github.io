@@ -63,6 +63,12 @@ html { scroll-behavior: smooth; }
 
 .thanks .description h1 { font-weight: 700; margin-top: 20px; }
 
+.list-group-item { background-color: transparent; }
+
+.list-group-item a { text-decoration: none !important; }
+
+list-group-item a:hover { font-weight: normal !important; }
+
 .description span { font-size: 25px; color: #fff; }
 
 .thanks .description h1, .thanks .description p { color: #000; }
@@ -75,9 +81,11 @@ html { scroll-behavior: smooth; }
 
 .feature-header { font-weight: 700; margin-bottom: 30px; }
 
-.fa { padding: 10px; font-size: 15px; text-align: center; text-decoration: none; margin: 5px 2px; }
+.fa, .fab { padding: 10px; font-size: 15px; text-align: center; text-decoration: none; margin: 5px 2px; }
 
-.fa:hover { opacity: 0.7; text-decoration: none; color: #fff; }
+.fa:hover, .fab:hover { opacity: 0.7; text-decoration: none; }
+
+.fa:hover { color: #fff; }
 
 .fa-linkedin { background: #007bb5; color: white; }
 
@@ -88,6 +96,8 @@ html { scroll-behavior: smooth; }
 .fa-stack-exchange { background: #53D4DF; color: white; }
 
 .fa-bitbucket { background: #F06595; color: white; }
+
+.fa-salesforce { background-color: #fff; }
 
 hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
@@ -160,7 +170,7 @@ div .post-content { padding-top: 30px; }
 .timeline, .timeline > * { box-sizing: border-box; }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after { content: ''; position: absolute; width: 6px; background-color: white; top: 0; bottom: 0; left: 5%; margin-left: 0px; }
+.timeline::after { content: ''; position: absolute; width: 6px; background-color: white; top: 0; bottom: 0; left: 1.75em; margin-left: 0px; }
 
 /* Container around content */
 .timeline-container { padding: 11px 40px; position: relative; background-color: inherit; }
@@ -175,7 +185,7 @@ div .post-content { padding-top: 30px; }
 .left::before { content: " "; height: 0; position: absolute; top: 22px; width: 0; z-index: 1; right: 30px; border: medium solid white; border-width: 10px 0 10px 10px; border-color: transparent transparent transparent white; }
 
 /* Fix the circle for containers on the right side */
-.right::after { left: 17px; }
+.right::after { left: 1.3em; }
 
 /* The actual content */
 .timeline-content { padding: 1px 15px; padding-right: 0; position: relative; }
