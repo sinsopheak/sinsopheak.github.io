@@ -14,4 +14,4 @@ permalink: blog
 
 <!-- {% include blog-posts.html %} -->
 
-{% include subscribe.html %}
+<!-- {% include subscribe.html %} -->
