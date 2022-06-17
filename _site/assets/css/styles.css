@@ -1,10 +1,10 @@
 body { padding: 0; margin: 0; }
 
-.nav-link, .navbar-brand { color: #fff; cursor: pointer; }
+.nav-link, .navbar-brand { color: #dcdcdc; cursor: pointer; }
 
 .custom-footer a { cursor: pointer; color: #000; }
 
-.navbar { padding: 10px 30px; background-color: rgba(17, 16, 16, 0.98); width: 100%; }
+.navbar { padding: 2px 30px 5px 30px; background-color: rgba(17, 16, 16, 0.98); width: 100%; }
 
 .navbar-sticky { position: fixed; top: 0; z-index: 100; }
 
@@ -15,8 +15,6 @@ body { padding: 0; margin: 0; }
 .navbar-brand:hover, .nav-link:hover { color: #fff; }
 
 .custom-footer a:hover { color: #000; }
-
-.nav-link:hover { text-decoration: underline; }
 
 .navbar-collapse { justify-content: flex-end; }
 
@@ -89,6 +87,8 @@ list-group-item a:hover { font-weight: normal !important; }
 
 .fa-linkedin { background: #007bb5; color: #fff; }
 
+.fa-commenting { background: #53D4DF; color: #fff; }
+
 .fa-youtube { background: #bb0000; color: #fff; }
 
 .fa-rss { background: #ff6600; color: #fff; }
@@ -143,7 +143,7 @@ hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
 .validate { color: #bb0000; font-size: 14px; }
 
-.about-page { padding: 80px 40px 20px; }
+.about-page { padding: 90px 90px 40px 90px; }
 
 .below-nav { padding-top: 80px !important; }
 
@@ -233,5 +233,7 @@ div .post-content { padding-top: 30px; }
 div.gallery { margin-left: 15px; margin-right: 5px; margin-bottom: 10px; float: left; width: 200px; }
 
 div.gallery img { width: 100%; height: 280px; border: 1px solid #007bb5; }
+
+.thicker { font-weight: 520; }
 
 div.desc { padding: 15px; text-align: center; }
