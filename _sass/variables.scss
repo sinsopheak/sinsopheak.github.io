@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-    padding: 2px 30px 5px 30px;
+    padding: 2px 3px 5px 30px;
     background-color: rgba(17, 16, 16, 0.98);
     width: 100%;
 }
@@ -222,7 +222,12 @@ html {
   }
   
   .fa-youtube {
-    background: #bb0000;
+    background: #f73c3c;
+    color: #fff;
+  }
+
+  .fa-instagram {
+    background: #fe5ab7;
     color: #fff;
   }
  
