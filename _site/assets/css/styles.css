@@ -1,4 +1,4 @@
-body { padding: 0; margin: 0; position: relative; }
+body { padding: 0; margin: 0; position: relative; background-color: rgba(122, 122, 122, 0.05); }
 
 .nav-link, .navbar-brand { color: #dcdcdc; cursor: pointer; }
 
@@ -6,7 +6,7 @@ body { padding: 0; margin: 0; position: relative; }
 
 .content-padding { padding: 0px 20px; }
 
-.row .card { border: none; padding-left: 0; padding-right: 0; }
+.row .card { border: none; padding-left: 0; padding-right: 0; border-radius: 0; }
 
 .padding-top-medium { padding-top: 40px; }
 
@@ -95,7 +95,9 @@ list-group-item a:hover { font-weight: normal !important; }
 
 .feature-header { font-weight: 700; margin-bottom: 30px; }
 
-.card-text a { padding: 0; color: #474646; }
+.card a { padding: 0; color: #474646; }
+
+.card a .fa:hover { color: #000; opacity: 1; }
 
 .card-img-overlay a { color: #fff; font-weight: 505; }
 
@@ -109,7 +111,7 @@ list-group-item a:hover { font-weight: normal !important; }
 
 .card-text a:hover { opacity: 1; color: #000; text-decoration: none; }
 
-.background-1 { background-color: #edffea; }
+.background-1 { background-color: #fff; }
 
 .background-2 { background-color: #fceded; }
 
@@ -153,7 +155,7 @@ hr { border-top: 1px solid rgba(96, 96, 96, 0.3); width: 90%; margin: 1em 0em; }
 
 .custom-color { background-color: rgba(122, 122, 122, 0.05); }
 
-.custom-footer { color: #7a7a7a; padding-bottom: 18px; background-color: rgba(122, 122, 122, 0.05); }
+.custom-footer { color: #7a7a7a; padding-top: 15px; padding-bottom: 5px; background-color: rgba(122, 122, 122, 0.05); }
 
 .overlay { position: absolute; min-height: 100%; min-width: 100%; left: 0; top: 0; background: rgba(0, 0, 0, 0.7); }
 
@@ -248,6 +250,7 @@ div .post-content { padding-top: 30px; }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
+  .card-text { margin-bottom: 0; }
   .overlay-padding { padding-left: 15px; padding-right: 15px; }
   .desktop-only { display: none; }
   .mobile-only { display: block; padding-top: 13px; padding-bottom: 13px; margin: auto; width: 100%; text-align: center; }

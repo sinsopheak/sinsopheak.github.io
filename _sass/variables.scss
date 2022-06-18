@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
+    background-color: rgba(122, 122, 122, 0.05);
 }
 
 .nav-link, .navbar-brand {
@@ -22,6 +23,7 @@ body {
   border: none;
   padding-left: 0;
   padding-right: 0;
+  border-radius: 0;
 }
 
 .padding-top-medium {
@@ -232,9 +234,14 @@ html, body {
     margin-bottom: 30px;
   }
 
-  .card-text a  {
+  .card a  {
     padding: 0;
     color: rgb(71, 70, 70);
+  }
+
+  .card a .fa:hover {
+    color: #000;
+    opacity: 1;
   }
 
   .card-img-overlay a {
@@ -267,7 +274,7 @@ html, body {
   }
 
   .background-1 {
-    background-color: rgb(237, 255, 234);
+    background-color: #fff;
   }
 
   .background-2 {
@@ -381,7 +388,8 @@ html, body {
 
   .custom-footer {
     color: #7a7a7a;
-    padding-bottom: 18px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     background-color: rgba(122, 122, 122, 0.05);
   }
 
@@ -619,6 +627,10 @@ div .post-content {
 @media screen and (max-width: 600px) {
   .timeline {
     max-width: 100%;
+  }
+
+  .card-text {
+    margin-bottom: 0;
   }
 
   .overlay-padding {
