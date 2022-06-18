@@ -293,7 +293,7 @@ img.img-small { width: 40%; }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
   .margin-left-small { margin-left: 10px; }
-  .card-img { width: 100%; max-height: 14em; object-fit: contain; }
+  .card-img { width: 100%; max-height: 14em; }
   .card-text { margin-bottom: 0; }
   .overlay-padding { padding-left: 15px; padding-right: 15px; }
   .desktop-only { display: none; }
