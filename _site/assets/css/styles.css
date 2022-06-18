@@ -248,6 +248,10 @@ div .post-content { padding-top: 30px; }
 
 .small-nav-title { font-size: 10px; letter-spacing: 1px; }
 
+.contact-form-header { margin-top: 50px; }
+
+.contact-form { margin-top: 30px; }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
   .card-img { width: 100%; max-height: 14em; object-fit: contain; }

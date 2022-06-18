@@ -623,6 +623,13 @@ div .post-content {
     letter-spacing: 1px;
   }
 
+  .contact-form-header {
+    margin-top: 50px;
+  }
+  .contact-form {
+    margin-top: 30px;
+  }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .timeline {

@@ -4,28 +4,15 @@ title: Contact | Sin Sopheak
 permalink: contact
 ---
 
-<header class="page-header header header-contact container-fluid">
-    <div class="overlay">
-        <div class="description">
-            <h1>Get in touch</h1>
-            <p>Have questions or comments? <br>Contact me at <a href="mailto: hello@sinsopheak.com">hello@sinsopheak.com</a>.</p>
-        </div>
-        <div class="form-button">
-            <a href="#contactForm" title="Or drop a message below"><i class="arrow down icon-glow"></i></a>
-        </div>
-    </div>
-</header>
 
-<div class="light-brown">
-    <a id="contactForm"></a>
-</div>
 
-<div class="container-fluid features light-brown">
+<div class="container-fluid features light-brown contact-form-header">
     <h3 class="text-center">Contact</h3>
-    <p class="text-center">Drop a message.</p>
+    <p class="text-center">Reach out for advice, mentorship, or volunteering. Or just to say hello!</p>
 
     <div class="container contact-form">
-        <form action="https://getsimpleform.com/messages?form_api_token=281784d2da7edae87d279e0546491ca2" method="post">
+    
+        <form action="https://getform.io/f/e4a80ab5-7927-48a4-bd36-93ae69303188" method="post">
             <input type='hidden' name='redirect_to' value='https://www.sinsopheak.com/contact/thank-you' />
             <div class="row justify-content-center">
                 <div class="col-md-3 form-group">
