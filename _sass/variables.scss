@@ -14,16 +14,40 @@ body {
 }
 
 .content-padding {
-  padding: 5px 50px;
+  padding: 0px 50px;
 }
 
 .content-padding .card {
   border: none;
 }
 
+.padding-top-medium {
+  padding-top: 40px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.padding-medium {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
 .padding-none {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.padding-left-none {
+  padding-left: 0px;
+  padding-right: 1px;
+}
+
+.padding-left-medium {
+  padding-left: 10px;
 }
 
 .navbar {
@@ -207,6 +231,30 @@ html {
     margin-bottom: 30px;
   }
 
+  .card .fa, .card a  {
+    padding: 0;
+    color: #000;
+  }
+
+  .card .fa:hover,  .card a:hover {
+    opacity: 1;
+    color: rgb(31, 125, 249);
+    text-decoration: none;
+  }
+
+  .background-1 {
+    background-color: rgb(237, 255, 234);
+  }
+
+  .background-2 {
+    background-color: rgb(252, 237, 237);
+  }
+
+  .card-img {
+    opacity: 0.1;
+    width: 100%;
+  }
+
     .fa {
     padding: 10px;
     font-size:15px;
@@ -218,10 +266,7 @@ html {
   .fa:hover {
       opacity: 0.7;
       text-decoration: none;
-  }
-
-  .fa:hover {
-    color: #fff;
+      color: #fff;
   }
   
   .fa-linkedin {

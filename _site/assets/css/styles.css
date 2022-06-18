@@ -4,11 +4,21 @@ body { padding: 0; margin: 0; }
 
 .custom-footer a { cursor: pointer; color: #000; }
 
-.content-padding { padding: 5px 50px; }
+.content-padding { padding: 0px 50px; }
 
 .content-padding .card { border: none; }
 
+.padding-top-medium { padding-top: 40px; }
+
+.card-body { display: flex; align-items: center; flex-wrap: wrap; }
+
+.padding-medium { padding-left: 23px; padding-right: 23px; }
+
 .padding-none { padding-left: 0px; padding-right: 0px; }
+
+.padding-left-none { padding-left: 0px; padding-right: 1px; }
+
+.padding-left-medium { padding-left: 10px; }
 
 .navbar { padding: 2px 0px 4px 25px; background-color: rgba(17, 16, 16, 0.98); width: 100%; }
 
@@ -85,11 +95,19 @@ list-group-item a:hover { font-weight: normal !important; }
 
 .feature-header { font-weight: 700; margin-bottom: 30px; }
 
+.card .fa, .card a { padding: 0; color: #000; }
+
+.card .fa:hover, .card a:hover { opacity: 1; color: #1f7df9; text-decoration: none; }
+
+.background-1 { background-color: #edffea; }
+
+.background-2 { background-color: #fceded; }
+
+.card-img { opacity: 0.1; width: 100%; }
+
 .fa { padding: 10px; font-size: 15px; text-align: center; text-decoration: none; margin: 5px 2px; }
 
-.fa:hover { opacity: 0.7; text-decoration: none; }
-
-.fa:hover { color: #fff; }
+.fa:hover { opacity: 0.7; text-decoration: none; color: #fff; }
 
 .fa-linkedin { background: #007bb5; color: #fff; }
 
