@@ -97,14 +97,32 @@
     <div class="container-fluid text-center">
         <ul class="list-inline">
             
-                <li class="list-inline-item active"><a href="/blog">Blog</a></li>
+                <li class="list-inline-item active">
+                    
+                        <a href="/blog">Blog</a>
+                    
+                </li>
             
-                <li class="list-inline-item "><a href="/contact">Contact</a></li>
+                <li class="list-inline-item ">
+                    
+                        <a href="/contact">Contact</a>
+                    
+                </li>
             
-                <li class="list-inline-item "><a href="/privacy">Privacy Policy</a></li>
+                <li class="list-inline-item ">
+                    
+                        <a href="/privacy">Privacy Statement</a>
+                    
+                </li>
+            
+                <li class="list-inline-item ">
+                    
+                        <a id="show_cookie_preferences">Cookie Preferences</a>
+                    
+                </li>
             
         </ul>
-        <p>© 2022 <a href="./"> Sin Sopheak</a>. All rights reserved.</p>
+        <p>© 2022, <a href="./">sinsopheak.com</a>. All rights reserved.</p>
     </div>
 </footer>
 
@@ -207,10 +225,14 @@
     });
 
     document.getElementById('cookie-notice-decline').addEventListener("click", function () {
-            createCookie('cookie-notice-dismissed', 'false', 31);
-            document.getElementById('cookie-notice').style.display = 'none';
-            location.reload();
-        });
+        createCookie('cookie-notice-dismissed', 'false', 31);
+        document.getElementById('cookie-notice').style.display = 'none';
+    });
+
+    document.getElementById('show_cookie_preferences').addEventListener("click", function () {
+        console.log('hello');
+        document.getElementById('cookie-notice').style.display = 'block';
+    });
 
 </script>
     

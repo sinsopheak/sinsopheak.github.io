@@ -2,5 +2,8 @@
   link: /blog
 - name: Contact
   link: /contact
-- name: Privacy Policy
+- name: Privacy Statement
   link: /privacy
+- name: Cookie Preferences
+  id: show_cookie_preferences
+  type: idOnly
