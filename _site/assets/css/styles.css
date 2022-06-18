@@ -272,7 +272,9 @@ a.link-white:hover { color: #fff !important; font-weight: bold; text-decoration:
 
 .image-overlay { position: relative; text-align: center; background-color: #578379; }
 
-.background-4 { background-color: #578379; }
+.background-5 { background-color: #578379; }
+
+.background-4 { background-color: #eeeeee; }
 
 .image-overlay img { padding: 20px 10px; filter: blur(1px); -webkit-filter: blur(1px); opacity: 0.2; }
 
