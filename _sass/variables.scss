@@ -18,8 +18,10 @@ body {
   padding: 0px 20px;
 }
 
-.content-padding .card {
+.row .card {
   border: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .padding-top-medium {
@@ -31,7 +33,7 @@ body {
   padding-right: 23px;
 }
 
-.padding-none {
+.padding-none, .overlay-padding {
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -230,14 +232,37 @@ html, body {
     margin-bottom: 30px;
   }
 
-  .card .fa, .card a  {
+  .card-text a  {
     padding: 0;
-    color: #000;
+    color: rgb(71, 70, 70);
   }
 
-  .card .fa:hover,  .card a:hover {
+  .card-img-overlay a {
+    color: #fff;
+    font-weight: 505;
+  }
+
+  .card-img-overlay a:hover {
+    color: #fff !important;
+    text-decoration: underline !important;
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+  .card-text .fa {
+    padding-left: 0;
+    margin-left: 0;
+  } 
+
+.padding-right-xs {
+  padding-right: 2px;
+}
+
+  .card-text a:hover {
     opacity: 1;
-    color: rgb(31, 125, 249);
+    color: #000;
     text-decoration: none;
   }
 
@@ -351,12 +376,13 @@ html, body {
   }
 
   .custom-color {
-    background-color: rgba(122, 122, 122, 0.05)
+    background-color: rgba(122, 122, 122, 0.05);
   }
 
   .custom-footer {
     color: #7a7a7a;
     padding-bottom: 18px;
+    background-color: rgba(122, 122, 122, 0.05);
   }
 
   .overlay{
@@ -595,6 +621,11 @@ div .post-content {
     max-width: 100%;
   }
 
+  .overlay-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .desktop-only {
     display: none;
   }
@@ -613,7 +644,7 @@ div .post-content {
   }
 
   .logo-padding {
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 0px;
   }
 
