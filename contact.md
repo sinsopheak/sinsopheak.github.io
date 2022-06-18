@@ -3,15 +3,11 @@ layout: default-bare
 title: Contact | Sin Sopheak
 permalink: contact
 ---
-
-
-
 <div class="container-fluid features light-brown contact-form-header">
     <h3 class="text-center">Contact</h3>
     <p class="text-center">Reach out for advice, mentorship, or volunteering. Or just to say hello!</p>
 
     <div class="container contact-form">
-    
         <form action="https://getform.io/f/e4a80ab5-7927-48a4-bd36-93ae69303188" method="post">
             <input type='hidden' name='redirect_to' value='https://www.sinsopheak.com/contact/thank-you' />
             <div class="row justify-content-center">
