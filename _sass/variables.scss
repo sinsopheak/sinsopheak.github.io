@@ -13,6 +13,19 @@ body {
   color: #000;
 }
 
+.content-padding {
+  padding: 5px 50px;
+}
+
+.content-padding .card {
+  border: none;
+}
+
+.padding-none {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .navbar {
     padding: 2px 0px 4px 25px;
     background-color: rgba(17, 16, 16, 0.98);
