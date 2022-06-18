@@ -1,11 +1,11 @@
-- date: Aug 2019 - Present
+- date: Aug 2019 - April 2022
   title: Senior Salesforce Developer
-  desc: Working on a global CRM system, implementing various features and projects including custom customer support solutions such as Knowledge Base, Case and Contact handling on Salesforce Service Cloud apps, moderation system, Provar test automations, and full-fledged Salesforce Communities for <a href="https://www.ebayclassifiedsgroup.com/" target="_blank">eClassifieds Group</a>. <br/> <span class="badge">Service Cloud</span> <span class="badge">Google Analytics</span> <span class="badge">Visualforce</span> <span class="badge">Salesforce Community</span> <span class="badge">APEX</span> <span class="badge">SOQL</span> <span class="badge">Provar</span> <span class="badge">Lightning Component Framework (Aura, LWC)</span>
+  desc: Worked on a global CRM system, implementing various features and projects including custom customer support solutions such as Knowledge Base, Case and Contact handling on Salesforce Service Cloud apps, moderation system, Provar test automations, and full-fledged Salesforce Communities. <br/> <span class="badge">Service Cloud</span> <span class="badge">Google Analytics</span> <span class="badge">Visualforce</span> <span class="badge">Salesforce Community</span> <span class="badge">APEX</span> <span class="badge">SOQL</span> <span class="badge">Provar</span> <span class="badge">Lightning Component Framework (Aura, LWC)</span>
 - date: Feb 2019 - May 2019
-  title: PHP and Blockchain Developer internship
+  title: PHP; Blockchain Developer - Internship
   desc: Built an ERP system based on Dolibarr platform, developed a Corda Blockchain network for storing financial transactions, and integrated the two systems by creating REST API interfaces on a Spring Boot server. <br/> <span class="badge">Dolibarr</span> <span class="badge">PHP</span> <span class="badge">mySQL</span> <span class="badge">Corda</span> <span class="badge">Kotlin</span> <span class="badge">Server</span> <span class="badge">Spring Boot</span> <span class="badge">REST API</span>
 - date: Jul 2018 - Oct 2018
-  title: iOS Developer Intern
+  title: iOS Developer - Internship
   desc: Developed financial book libary application with interactive educational book/audiobook reading and listening experience, full offline support, audience engagement measuring, and more. <br/> <span class="badge">iOS</span> <span class="badge">Swift</span>
 - date: Jan 2018 - May 2018
   title: Technical Mentor
@@ -14,5 +14,5 @@
   title: Microsoft Student Partner Programs Member   
   desc: Knowledge sharing experience with developers and computer majors and a training course by a Certified Microsoft Trainer. Developed online shopping Android application, and a backend server with a SQL database and API interfaces based on Microsoft SQL Server. <br/> <span class="badge">Microsoft Server Management Studio</span> <span class="badge">REST API</span> <span class="badge">C#</span> <span class="badge">Android</span> <span class="badge">Java</span>
 - date: Jul 2017 - Oct 2017
-  title: Android Developer Intern
+  title: Android Developer - Internship
   desc: Developed online shopping and student attendance management applications. <br/> <span class="badge">Android</span> <span class="badge">Java</span>

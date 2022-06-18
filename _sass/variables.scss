@@ -517,7 +517,7 @@ div .post-content {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #606060;
   top: 0;
   bottom: 0;
   left: 1.75em;
@@ -538,8 +538,8 @@ div .post-content {
   width: 20px;
   height: 20px;
   right: -17px;
-  background-color: #cdcbcb;
-  border: 4px solid #FFF;
+  background-color: #fff;
+  border: 4px solid #606060;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -668,8 +668,16 @@ div .post-content {
     text-decoration: underline;
   }
 
-  .padding-top-medium {
-    padding-top: 20px;
+  .background-6 {
+    background-color: #d6dbff;
+  }
+
+  .background-white {
+    background-color: #fff;
+  }
+
+  .padding-small {
+    padding: 15px 15px;
   }
 
   .image-overlay {
@@ -716,6 +724,10 @@ div .post-content {
 @media screen and (max-width: 600px) {
   .timeline {
     max-width: 100%;
+  }
+
+  .margin-left-small {
+    margin-left: 10px;
   }
 
   .card-img {

@@ -1,11 +1,24 @@
-<div class="timeline color-dark2">
-    {% for item in site.data.timelineItem %}
-        <div class="timeline-container right">
-            <div class="timeline-content">
-                <span class="date">{{ item.date }}</span>
-                <span>{{ item.title }}</span>
-                <p>{{ item.desc }}</p>
+<div class="row">
+    <div class="col-md-8 col-lg-8 col-sm-12 background-white">
+        <div>
+            <div class="padding-small">
+                <h2>Past Experiences</h2>
             </div>
+                <div class="timeline margin-left-small">
+                    {% for item in site.data.timelineItem %}
+                <div class="timeline-container right">
+                    <div class="timeline-content">
+                        <span class="date">{{ item.date }}</span>
+                        <span>{{ item.title }}</span>
+                        <p>{{ item.desc }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+                </div>
         </div>
-    {% endfor %}
+    </div>
+    <div class="col-4">
+
+    </div>
 </div>
+
