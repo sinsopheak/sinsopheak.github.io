@@ -630,6 +630,30 @@ div .post-content {
     margin-top: 30px;
   }
 
+  .font-bigger {
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .title-xxl {
+    font-size: 6em;
+  }
+
+  a.link-white {
+    color: #fff !important;
+    font-weight: bold;
+  }
+
+  a.link-white:hover {
+    color: #fff !important;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .background-dark {
+    background-color: rgb(71, 71, 71);
+  }
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .timeline {
