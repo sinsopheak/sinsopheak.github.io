@@ -1,5 +1,5 @@
 ---
-layout: default-bare
+layout: default-blog
 title: Blog | Sin Sopheak
 permalink: blog
 ---
@@ -7,7 +7,7 @@ permalink: blog
     <div class="overlay">
         <div class="description">
             <span>There are no posts yet.</span>
-            <p><a href="#subscribeForm">Subscribe</a> to get notified when new content is addded.</p>
+            <p>Come back later!</p>
         </div>
     </div>
 </header>
