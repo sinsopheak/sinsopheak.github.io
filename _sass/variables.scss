@@ -630,6 +630,10 @@ div .post-content {
     margin-top: 30px;
   }
 
+  .padding-large {
+    padding: 40px 40px;
+  }
+
   .font-bigger {
     font-size: larger;
     font-weight: bold;
@@ -639,9 +643,23 @@ div .post-content {
     font-size: 6em;
   }
 
+  .title-xl {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .image-overlay>div {
+    width: 90%;
+  }
+
   a.link-white {
     color: #fff !important;
     font-weight: bold;
+  }
+
+  .blur {
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
   }
 
   a.link-white:hover {
@@ -650,8 +668,40 @@ div .post-content {
     text-decoration: underline;
   }
 
+  .padding-top-medium {
+    padding-top: 20px;
+  }
+
+  .image-overlay {
+    position: relative;
+    text-align: center;
+    background-color: #578379;
+  }
+
+  .background-4 {
+    background-color: #578379;
+  }
+
+  .image-overlay img {
+    padding: 20px 10px;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    opacity: 0.2;
+  }
+
   .background-dark {
     background-color: rgb(71, 71, 71);
+  }
+
+  .centered {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+  .background-3 {
+    background-color: #cbcbcb;
   }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
