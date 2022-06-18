@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 .nav-link, .navbar-brand {
@@ -14,7 +15,7 @@ body {
 }
 
 .content-padding {
-  padding: 0px 50px;
+  padding: 0px 20px;
 }
 
 .content-padding .card {
@@ -23,12 +24,6 @@ body {
 
 .padding-top-medium {
   padding-top: 40px;
-}
-
-.card-body {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .padding-medium {
@@ -109,6 +104,10 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 .arrow {
@@ -607,6 +606,19 @@ div .post-content {
     margin: auto;
     width: 100%;
     text-align: center;
+  }
+
+  .about-page {
+    padding: 60px 20px 10px 20px;
+  }
+
+  .logo-padding {
+    padding-left: 15px;
+    padding-right: 0px;
+  }
+
+  .navbar-toggler {
+    padding-right: 20px;
   }
 
   .padding-bottom {

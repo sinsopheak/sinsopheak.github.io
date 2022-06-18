@@ -1,16 +1,14 @@
-body { padding: 0; margin: 0; }
+body { padding: 0; margin: 0; position: relative; }
 
 .nav-link, .navbar-brand { color: #dcdcdc; cursor: pointer; }
 
 .custom-footer a { cursor: pointer; color: #000; }
 
-.content-padding { padding: 0px 50px; }
+.content-padding { padding: 0px 20px; }
 
 .content-padding .card { border: none; }
 
 .padding-top-medium { padding-top: 40px; }
-
-.card-body { display: flex; align-items: center; flex-wrap: wrap; }
 
 .padding-medium { padding-left: 23px; padding-right: 23px; }
 
@@ -44,6 +42,8 @@ body { padding: 0; margin: 0; }
 .description { top: 50%; left: 50%; position: absolute; transform: translate(-50%, -55%); text-align: center; }
 
 html { scroll-behavior: smooth; }
+
+html, body { overflow-x: hidden; }
 
 .arrow { border: solid #fff; border-width: 0 3px 3px 0; display: inline-block; padding: 3px; }
 
@@ -240,6 +240,9 @@ div .post-content { padding-top: 30px; }
 @media screen and (max-width: 600px) { .timeline { max-width: 100%; }
   .desktop-only { display: none; }
   .mobile-only { display: block; padding-top: 13px; padding-bottom: 13px; margin: auto; width: 100%; text-align: center; }
+  .about-page { padding: 60px 20px 10px 20px; }
+  .logo-padding { padding-left: 15px; padding-right: 0px; }
+  .navbar-toggler { padding-right: 20px; }
   .padding-bottom { padding-bottom: 15px !important; }
   .home-exp { padding-left: 20px; }
   .home-exp span { font-size: 20px; }
