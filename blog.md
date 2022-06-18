@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-bare
 title: Blog | Sin Sopheak
 permalink: blog
 ---

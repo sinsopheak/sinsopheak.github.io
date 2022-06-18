@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-bare
 title: Contact | Sin Sopheak
 permalink: contact
 ---
