@@ -3,6 +3,18 @@ collections:
     output: true
   categories:
     output: true
+social:
+  name: Sin Sopheak
+  links:
+    - https://www.linkedin.com/in/sinsopheak
+    - https://trailblazer.me/id/sinsopheak
+    - https://www.instagram.com/sinspheak/
+description: Specialising in developing technology and solutions to help businesses grow and expand through quailty customer service experiences and 360 degree view of customer journey and insights for increasing sales and profitability.
+title: Sin Sopheak
+tagline: Senior Salesforce Service Cloud Engineer
+url: https://sinsopheak.com
+logo: /assets/images/apple-touch-icon.png
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
