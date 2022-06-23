@@ -1,7 +1,5 @@
 - name: Blog
   link: /blog
-- name: Contact
-  link: /contact
 - name: Privacy Statement
   link: /privacy
 - name: Cookie Preferences
