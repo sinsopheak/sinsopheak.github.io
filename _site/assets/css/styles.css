@@ -365,7 +365,7 @@ img.img-small { width: 40%; }
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 1000px) { .desktop-only { display: none; }
   .mobile-only { display: block; padding-bottom: 13px; width: 100%; }
-  .profile-pic-mobile img { width: 60%; }
+  .profile-pic-mobile img { width: 70%; }
   .home-main-container { padding-top: 100px; padding-bottom: 10px; }
   .home-main-container p { margin-bottom: 30px; }
   .home-main-container, .home-content-container { padding-left: 2.5em; padding-right: 2.5em; } }
