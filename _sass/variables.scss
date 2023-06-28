@@ -938,8 +938,17 @@ div .post-content {
   .home-main-container p {
     margin-bottom: 30px;
   }
+
+  .home-main-container, .home-content-container {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
 }
 @media screen and (max-width: 600px) {
+  .link-button {
+    margin-bottom: 10px;
+  }
+
   .timeline {
     max-width: 100%;
   }
