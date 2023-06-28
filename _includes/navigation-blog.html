@@ -1,15 +1,10 @@
-<nav class="navbar navbar-expand-md navbar-sticky">
+<nav class="navbar navbar-expand navbar-sticky">
     <a class="navbar-brand" href="/{% if page.title contains 'Blog' %}blog{% endif %}">{% if page.title contains 'Blog' %}Blog<span class="small-nav-title"> by SIN SOPHEAK</span>{% else %}SIN SOPHEAK{% endif %}</a>
-    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="main-navigation">
-        <ul class="navbar-nav">
-            {% for item in site.data.navigation-blog limit:5 %}
-            <li class="nav-item">
-                <a class="nav-link {% if item.link == page.url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+    <ul class="navbar-nav ml-auto">
+        {% for item in site.data.navigation-blog limit:5 %}
+        <li class="nav-item">
+            <a class="nav-link {% if item.link == page.url %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </nav>

@@ -1,36 +1,38 @@
 ---
-layout: default-bare
+layout: default
 title: Contact | Sin Sopheak
 permalink: contact
 ---
-<div class="container-fluid features light-brown contact-form-header">
-    <h3 class="text-center">Contact</h3>
-    <p class="text-center">Reach out for advice, mentorship, or volunteering. Or just to say hello!</p>
-<!--
-    <div class="container contact-form">
-        <form action="https://getform.io/f/e4a80ab5-7927-48a4-bd36-93ae69303188" method="post">
-            <input type='hidden' name='redirect_to' value='https://www.sinsopheak.com/contact/thank-you' />
-            <div class="row justify-content-center">
-                <div class="col-md-3 form-group">
-                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+<div class="container-fluid d-flex flex-column custom-color page-main-container">
+    <div class="row flex-fill d-flex contact-page">
+        <div class="col-12">
+            <h1>Contact</h1>
+            <p>Reach out for job inquiry, advice or mentorship. Or just to say hello!</p>
+        </div>
+        <div class="col-12">
+            <span class="contact-button link-button"><a href='https://www.linkedin.com/in/sinsopheak'  rel="noopener noreferrer" target="_blank">Connect on LinkedIn</a></span>
+            <span class="contact-button link-button"><a href='mailto:hello@sinsopheak.com' rel="noopener noreferrer" target="_blank">Email to hello@sinsopheak.com</a></span>
+        </div>
+        <div class="col-lg-6 col-sm-8 col-xs-6">
+            <form action="https://smartforms.dev/submit/649c837c0dd8ac0a53209678" method="POST">
+                <div class="form-group">
+                    <label for="inputName">Name</label>
+                    <input type="text" name="name" class="form-control" id="inputName"        
+                        aria-describedby="emailHelp" placeholder="How may I address you?">
                 </div>
-                <div class="col-md-3 form-group">
-                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" name="email" class="form-control" id="inputEmail"        
+                        aria-describedby="emailHelp" placeholder="email@example.com">
                 </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-6 form-group">
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Your message here..." rows="5" required></textarea>
-                </div>
-            </div>
-      
-            <div class="row justify-content-center">
-                <div class="col-sm-12 text-center form-group">
-                    <button class="btn btn-outline-secondary" type="submit">Send</button>
-                </div>
-            </div>
-        </form>
+                <div class="form-group">
+                    <label for="textareaMessage">Please leave your message below</label>
+                    <textarea class="form-control" name="message" id="textareaMessage" 
+                        rows="3"></textarea>
+                </div> 
+                <div class="g-recaptcha" data-sitekey="6Lfox9smAAAAAB-pZYOyYOl5OvxeHZlXdEwG0o3-"></div>
+                <button class="btn btn-primary send-button" type="submit">Send</button>
+            </form>
+        </div>
     </div>
--->
-</div> 
+</div>
