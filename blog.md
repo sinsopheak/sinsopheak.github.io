@@ -7,11 +7,7 @@ permalink: blog
     <div class="overlay">
         <div class="description">
             <span>There are no posts yet.</span>
-            <p>Come back later!</p>
+            <p>Stay tune!</p>
         </div>
     </div>
 </header>
-
-<!-- {% include blog-posts.html %} -->
-
-<!-- {% include subscribe.html %} -->

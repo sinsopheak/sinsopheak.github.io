@@ -1,31 +1,25 @@
 ---
-layout: default-bare
+layout: default
 title: Privacy Policy | Sin Sopheak
 permalink: privacy
 ---
 
 <div class="container mx-auto privacy-page custom-color">
-    <h3>sinsopheak.com Privacy Policy</h3>
-    <p>We understand that the privacy of our visitors is very important and we are committed to keeping your information safe and secure. This privacy policy describes what information we collect on our website, how it is used, and what options we provide you to control your personal data.</p>
+    <h3>Privacy Policy</h3>
+    <p>This page describes what information is collected on the website, how it is used, and what options are provided for you to control your personal data.</p>
 
     <h5>What and How Information is Collected</h5>
-    <p>In the process of providing you access to our website and services, sinsopheak.com collects personal information from you in several ways. This section details the ways and types of information we collect from you and how it is used.</p>
-
-    <h6>Blog Subscription</h6>
-    <p>Although the website allows for anonymous access to our blog posts, we do offer a subscription option which visitors can sign up for to receive updates on new contents. This requires an email address at which we can contact you for subscription verification and confirmation and keeping you up-to-date with our blog. You may unsubscribe from the service at any time which would remove personal information associated with your subscription. </p>
-
-    <h6>Contacting Us</h6> 
-    <p>Vistors can get in touch with us via our social media profiles, email, or our on-site Contact page. The latter requires you to share certain personal identifying information such as name and email address.</p>
+    <p>In the process of providing you access to the website, sinsopheak.com collects personal information from you in several ways. This section details the ways and types of information is collected from you and how it is used.</p>
 
     <h6>Information Collected Automatically</h6>
-    <p>When you are visiting our website, we receive and record information from your device browser such as your location, browser and device information, how often you visit the website and the type of activity you engage in while on the website. However, we do not collect your personal identifying information or sensitive data which means that we do not associate collected data to personal identity nor are we aware of which set of data belong to which visitor specifically. Information collected auotmatically is used for various purposes including analytics and recommendations.</p>
+    <p>When you are visiting the website, information from your device browser such as your location, browser and device information, how often you visit the website and the type of activity you engage in while on the website is recorded. However, no personal identifying information or sensitive data is collected which means that there is no association between collected data and personal identity nor any awareness of which set of data belong to which visitor specifically. Information collected auotmatically is used for analytic purposes.</p>
 
     <h6>Information Shared with Third Parties</h6>
-    <p>We may share personal information with third parties who provide services to sinsopheak.com such as subscription processors, analytics tools, and email delivery services.</p>
+    <p>Some information may be shared with third parties who provide services to the website such as subscription processors, analytics tools, and email delivery services.</p>
 
     <h5>Cookies</h5>
-    <p>In order to provide the website along with its services and functionalities, we may place cookies on you as well as partner with third parties including email delivery services. Cookies may be used to allow for smooth loading and rendering of the website and for other activites such as providing you with subscription service.</p>
+    <p>In order to provide the website along with its services and functionalities, cookies may be placed on you as well as partner with third parties including email delivery services. Cookies may be used to allow for smooth loading and rendering of the website and for other activites such as providing you with subscription service and for analytic purposes.</p>
 
     <h5>Privacy Policy Amendments</h5>
-    <p>From time to time, we may amend or update this privacy policy.</p>
+    <p>From time to time, this privacy policy may be amended or updated.</p>
 </div>
