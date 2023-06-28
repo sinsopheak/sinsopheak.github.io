@@ -3,4 +3,6 @@ $(document).ready(function () {
 })
 
 var windowh = window.innerHeight;
-document.getElementsByClassName('header').style.height = windowh;
+if (document.getElementsByClassName('header').style) {
+    document.getElementsByClassName('header').style.height = windowh;
+}

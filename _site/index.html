@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Sin Sopheak" />
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140423295-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ES729SNFTE"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -35,6 +35,7 @@
 <!-- End Jekyll SEO tag -->
 
 </head>
+
     <body>
         <nav class="navbar navbar-expand-sm navbar-sticky">
     <a class="navbar-brand" href="/">Sin Sopheak</a>
@@ -259,10 +260,10 @@
 
     if (readCookie('cookie-notice-dismissed') == 'true') {
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-140423295-1');
+        gtag('config', 'G-ES729SNFTE', { 'anonymize_ip': true });
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
@@ -284,5 +285,6 @@
     });
 
 </script>
+
     </body>
 </html>
