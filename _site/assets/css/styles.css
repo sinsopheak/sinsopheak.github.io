@@ -93,6 +93,8 @@ body { padding: 0; margin: 0; position: relative; }
 /* About page styles */
 .about-page h1 { font-size: 4em; font-weight: 700; }
 
+.word-cloud-desc { font-size: 12px; }
+
 .about-page a { color: #258bcb; text-decoration: underline; }
 
 .about-page a:hover { font-weight: bold; }
