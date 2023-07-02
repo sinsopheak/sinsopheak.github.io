@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About | Sin Sopheak
+title: About
 permalink: about
 ---
 <div class="container-fluid custom-color d-flex flex-column page-main-container about-page">
