@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Thank you for contacting | Sin Sopheak
+title: Thank you
 permalink: contact/thankyou
 ---
 <header class="page-header header thanks custom-color container-fluid">
