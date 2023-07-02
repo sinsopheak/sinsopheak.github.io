@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact | Sin Sopheak
+title: Contact
 permalink: contact
 ---
 <div class="container-fluid d-flex flex-column custom-color page-main-container">
